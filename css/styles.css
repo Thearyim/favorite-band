@@ -1,12 +1,16 @@
 .sidebar {
   width: 30%;
-  height: auto;
+  height: 250px;
   float: left;
   background-color: #A4FCFA;
+  border: 3px solid #A4FCFA;
 }
 
 img {
   float: right;
+  height: 250px;
+  padding: 10px
+  border: 3px solid #A4FCFA;
 }
 
 h1 {
@@ -14,15 +18,23 @@ h1 {
   font-size: 50px;
   font-family: cursive;
   text-shadow: 2px 2px #A4FCFA;
+  border: 3px solid #A4FCFA;
 }
 
 p {
+  border: 3px solid #A4FCFA;
   text-align: center;
   margin: 20px;
   padding: 50px;
-  font-size: 40px;
+  font-size: 30px;
+  border: 3px solid #A4FCFA;
 }
 
 h2 {
   text-align: center;
+}
+
+.title2 {
+  margin: 20px;
+  padding: 20px;
 }
